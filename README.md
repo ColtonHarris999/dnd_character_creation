@@ -1,17 +1,22 @@
 # D&D Character Creation Analysis
 
-This project is centered around performing analysis on Dungeons and Dragons character data.
+This project analyzes The Dungeons and Dragons Character Creation dataset [dnddata](https://github.com/oganm/dnddata) to preform two tasks:
+### 1. Character Creation by Cultural Analysis ###
+Analyze the Character Dataset to graph character creation trends on a heatmap map of the world.
+Currently displays weapon choices and class archetypes by country.
+### 2. Class Predictor (Neural Network) ###
+   Given a character's Core Stats, predict what class that character is. Does not support multiclassing or homebrew content such as Blood Hunter.
 
 # Libraries to install
-geopandas
-matplotlib
-pandas
-sklearn
+geopandas,
+matplotlib,
+pandas,
+sklearn,
 torch
 
 # Datasets
 There are two data folders.
-Both should be included with this project's submission, I reccomend using these
+Both should be included with this project's submission, I recommend using these
 rather than downloading the datasets using the links in the report.
 ### data
 This is where the character data and geospatial data used to run the main program is.
